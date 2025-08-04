@@ -4,14 +4,14 @@ Detecting plastic-covered cropland using satellite imagery with limited labeled 
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 - Satellite image tiles and labels from April–May
 - Regions: Kenya, Spain, Vietnam
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 - Preprocessing with `rasterio`, `numpy`, `pandas`
 - Feature extraction from image bands
@@ -22,7 +22,7 @@ Detecting plastic-covered cropland using satellite imagery with limited labeled 
 
 ---
 
-## 📈 Performance
+##  Performance
 
 - **Cross-validation Accuracy:** 99.43%
 - **Metrics Used:** Precision, Recall, F1-Score (`classification_report` from `sklearn`)
